@@ -13,7 +13,7 @@ Activity and subject labels are given in separate files.  It is necessary to mer
 
 <!-- -->
 
-
+{
 fileSubjectTest <- "./UCI HAR Dataset/test/subject_test.txt"
 fileXTest <- "./UCI HAR Dataset/test/X_test.txt"
 fileYTest <- "./UCI HAR Dataset/test/Y_test.txt"
@@ -27,3 +27,4 @@ activityLabels <- read.table(fileActivityLabels, col.names = colNamesAL)
 colNamesF <- c("featureID", "featureLabel")
 features <- read.table(fileFeatures, col.names = colNamesF)
 
+}
